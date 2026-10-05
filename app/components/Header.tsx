@@ -12,7 +12,7 @@ const Header = () => {
             loading="eager"
             width={300}
             height={100}
-            className="h-auto w-[180px]"
+            className="h-auto w-45"
             priority
           />
         </Link>
