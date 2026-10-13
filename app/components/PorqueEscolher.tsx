@@ -30,7 +30,7 @@ const PorqueEscolher = () => {
         {/* Imagem */}
         <div className="relative min-h-125 overflow-hidden">
           <Image
-            src="/why-mestre-do-box.webp"
+            src="/images/box-de-canto.webp"
             alt="Box de banheiro instalado em ambiente moderno"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"

@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { BsWhatsapp } from "react-icons/bs";
 
 const phone = "5531984362710";
 const message = encodeURIComponent(
   "Olá, gostaria de solicitar um orçamento de um box para meu banheiro."
 );
-const link = `https://wa.me/${phone}²text=${message}`;
+const link = `https://wa.me/${phone}?text=${message}`;
 const Hero = () => {
   return (
     <section
@@ -43,10 +44,10 @@ const Hero = () => {
             uppercase
             text-[#07100e]
             transition
-            hover:bg-[#00a86b]
+            hover:bg-[#00a86b] flex items-center gap-2 justify-center hover:text-white
           "
             >
-              Solicite seu orçamento
+              Solicite seu orçamento <BsWhatsapp />
             </Link>
 
             <Link

@@ -1,4 +1,5 @@
 import ModelCard from "./ModeloCard";
+import Image from "next/image";
 
 const models = [
   {
@@ -40,8 +41,9 @@ const ModelosBox = () => {
             Nossos modelos
           </span>
           <h2 className="text-3xl font-bold leading-[1.05] md:text-6xl lg:text-7xl">
-            O box ideal <span className="text-[#00c77b]">seu banheiro</span> e
-            segurança
+            O box ideal para o{" "}
+            <span className="text-[#00c77b]">seu banheiro</span> com modernidade
+            e segurança
             <span className="text-[#00c77b]">.</span>
           </h2>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80 md:text-xl">
@@ -49,14 +51,8 @@ const ModelosBox = () => {
             qualidade, no design e no melhor aproveitamento do seu espaço.
           </p>
         </div>
-        <div className="max-w-2xl text-white">
-          <div className="flex">
-            <div className="img"></div>
-            <div className="info"></div>
-          </div>
-        </div>
       </div>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2 max-w-7xl mx-auto   min-h-180 items-center px-6 lg:px-10">
+      <div className="flex gap-6 sm:grid-cols-2 lg:grid-cols-2 max-w-7xl mx-auto   min-h-180 items-center px-6 lg:px-10">
         {models.map(model => (
           <ModelCard
             key={model.title}

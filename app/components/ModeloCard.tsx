@@ -18,10 +18,10 @@ const whatsappLink = `https://wa.me/${phone}?text=${message}`;
 
 const ModelCard = ({ image, title, description, href }: ModelCardProps) => {
   return (
-    <article className="group overflow-hidden rounded-2xl border border-[#e8ece9] bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ">
+    <article className="group overflow-hidden rounded-2xl border border-[#e8ece9] bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl w-full">
       {/* Imagem do modelo */}
       <Link href={href} className="block">
-        <div className="relative h-155 aspect-auto overflow-hidden">
+        <div className="relative h-70 aspect-square overflow-hidden">
           <Image
             src={image}
             alt={title}
