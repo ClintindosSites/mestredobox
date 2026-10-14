@@ -21,7 +21,7 @@ const ModelCard = ({ image, title, description, href }: ModelCardProps) => {
     <article className="group overflow-hidden rounded-2xl border border-[#e8ece9] bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl w-full">
       {/* Imagem do modelo */}
       <Link href={href} className="block">
-        <div className="relative h-70 aspect-square overflow-hidden">
+        <div className="relative h-80 aspect-auto overflow-hidden">
           <Image
             src={image}
             alt={title}

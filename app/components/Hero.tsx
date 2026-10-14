@@ -14,11 +14,12 @@ const Hero = () => {
     bg-cover bg-center bg-no-repeat
     bg-[linear-gradient(90deg,rgba(7,16,14,0.97)_0%,rgba(7,16,14,0.88)_30%,rgba(7,16,14,0.40)_60%,rgba(7,16,14,0.05)_100%),url('/box-hero.webp')]
   "
+      id="hero"
     >
       <div className="mx-auto flex min-h-180 max-w-7xl items-center px-6 lg:px-10">
         <div className="max-w-2xl text-white">
           <span className="mb-4 block text-sm font-semibold uppercase tracking-[0.2em] text-[#00c77b]">
-            Beleza, funcionalidade e durabilidade
+            Atendimento na Grande BH
           </span>
 
           <h1 className="text-5xl font-bold leading-[1.05] md:text-6xl lg:text-7xl">
@@ -39,10 +40,10 @@ const Hero = () => {
               className="
             rounded-xl
             bg-[#00c77b]
-            px-7 py-4
+            px-6 py-4
             font-semibold
             uppercase
-            text-[#07100e]
+            text-[#fefefe]
             transition
             hover:bg-[#00a86b] flex items-center gap-2 justify-center hover:text-white
           "

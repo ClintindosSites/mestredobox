@@ -1,5 +1,4 @@
 import ModelCard from "./ModeloCard";
-import Image from "next/image";
 
 const models = [
   {
@@ -34,6 +33,7 @@ const ModelosBox = () => {
     relative min-h-180
    
   "
+      id="modelos"
     >
       <div className="mx-auto flex min-h-180 max-w-7xl items-center px-6 lg:px-10">
         <div className="max-w-2xl text-white">
@@ -57,7 +57,7 @@ const ModelosBox = () => {
   flex
   max-[1023px]:grid
   grid-cols-1
-  min-[400px]:max-[599px]:grid-cols-2
+  min-[420px]:max-[599px]:grid-cols-2
   sm:grid-cols-2
   lg:flex
   gap-6
