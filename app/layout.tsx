@@ -7,12 +7,12 @@ import WhatsAppFloat from "./components/WhatsappFloat";
 
 export const metadata: Metadata = {
   title: {
-    default: "Mestre do Box | Box de Banheiro Sob Medida",
+    default: "Mestre do Box | Box de Banheiro Sob Medida em Belo Horizonte",
     template: "%s | Mestre do Box",
   },
 
   description:
-    "Box de banheiro sob medida, box de vidro e soluções para seu banheiro. Encontre modelos de box modernos, seguros e de qualidade, com atendimento especializado e instalação profissional.",
+    "Orçamento, instalação e manutenção de box de banheiro em Belo Horizonte. Trabalhamos com box frontal, box até o teto, box de canto e muito mais, e o melhor: melhor preço da Grande BH.",
 
   keywords: [
     "box de banheiro em bh",
