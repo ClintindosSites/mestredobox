@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     },
   ],
 
-  creator: "Mestre do Box",
-  publisher: "Mestre do Box",
+  creator: "Clintin dos Sites",
+  publisher: "Clintin dos SItes",
 
   metadataBase: new URL("https://www.mestredobox.com.br"),
 
@@ -51,16 +51,16 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Mestre do Box | Box de Banheiro Sob Medida",
+    title: "Mestre do Box | Box de Banheiro Sob Medida em Belo Horizonte",
     description:
-      "Encontre o box ideal para seu banheiro. Modelos de box de vidro, soluções sob medida e instalação profissional.",
+      "Box de banheiro sob medida e personalizados como: box até o teto, box frontal, box de canto, box em L e muito mais",
     url: "https://www.mestredobox.com.br",
     siteName: "Mestre do Box",
     locale: "pt_BR",
     type: "website",
     images: [
       {
-        url: "/images/og-mestre-do-box.jpg",
+        url: "/og-image-1.webp",
         width: 1200,
         height: 630,
         alt: "Mestre do Box - Box de banheiro sob medida",
@@ -70,10 +70,10 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Mestre do Box | Box de Banheiro Sob Medida",
+    title: "Mestre do Box | Box de Banheiro Sob Medida em Belo Horizonte",
     description:
-      "Box de banheiro sob medida, box de vidro e instalação profissional.",
-    images: ["/images/og-mestre-do-box.jpg"],
+      "Box de banheiro sob medida e personalizados como: box até o teto, box frontal, box de canto, box em L e muito mais",
+    images: ["/og-image-1.webp"],
   },
 
   robots: {
