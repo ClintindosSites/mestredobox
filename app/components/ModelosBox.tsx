@@ -52,7 +52,24 @@ const ModelosBox = () => {
           </p>
         </div>
       </div>
-      <div className="flex gap-6 sm:grid-cols-2 lg:grid-cols-2 max-w-7xl mx-auto   min-h-180 items-center px-6 lg:px-10">
+      <div
+        className="
+  flex
+  max-[1023px]:grid
+  grid-cols-1
+  min-[400px]:max-[599px]:grid-cols-2
+  sm:grid-cols-2
+  lg:flex
+  gap-6
+  max-w-7xl
+  mx-auto
+  min-h-180
+  items-center
+  px-6
+  lg:px-10
+  mb-20
+"
+      >
         {models.map(model => (
           <ModelCard
             key={model.title}

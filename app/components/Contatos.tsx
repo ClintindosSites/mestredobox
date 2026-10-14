@@ -15,7 +15,7 @@ const Contatos = () => {
     bg-[linear-gradient(90deg,rgba(7,16,14,0.97)_0%,rgba(7,16,14,0.88)_30%,rgba(7,16,14,0.40)_60%,rgba(7,16,14,0.05)_100%),url('/box-hero.webp')] bg-fixed
   "
     >
-      <div className="mx-auto flex min-h-180 max-w-7xl items-center px-6 lg:px-10">
+      <div className="mx-auto flex flex-wrap min-h-180 max-w-7xl items-center px-6 lg:px-10">
         <div className="flex flex-col flex-1 mt-15 gap-10">
           <h2 className="text-3xl font-bold leading-[1.05] md:text-6xl lg:text-7xl ">
             Estamos próximo de você, entre em contato agora mesmo
