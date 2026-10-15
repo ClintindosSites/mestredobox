@@ -26,13 +26,15 @@ const Contatos = () => {
           </p>
 
           <iframe
-            title="localizacao"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.2037859185243!2d-44.0231902!3d-19.9158155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6942916b2c623%3A0x44888ce09f03e90c!2sR.%20Fl%C3%B4r%20de%20Alecrim%2C%2041%20-%20Pindorama%2C%20Belo%20Horizonte%20-%20MG%2C%2030865-350!5e0!3m2!1spt-BR!2sbr!4v1791921809332!5m2!1spt-BR!2sbr"
-            className="w-full min-h-75"
-            allowFullScreen
+            title="Localização da Mestre do Box"
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
             loading="lazy"
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          ></iframe>
 
           <Link
             href={link}
