@@ -79,6 +79,7 @@ export default function Header() {
     <>
       {/* CABEÇALHO */}
       <header
+        role="menuNavigation"
         className={`sticky top-0 z-40 w-full border-b border-[#00c77b] bg-[#111815] text-white transition-transform duration-300 ${
           headerVisible ? "translate-y-0" : "-translate-y-full"
         }`}

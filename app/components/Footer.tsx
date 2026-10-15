@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center bg-[#171717]">
+    <footer role="footer" className="flex justify-center bg-[#171717]">
       {" "}
       <div className="max-w-300 text-center flex items-center flex-col my-15 justify-center">
         <h3 className="text-5xl font-bold text-[#00c77b]">Mestre do Box</h3>

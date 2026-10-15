@@ -15,6 +15,7 @@ const Hero = () => {
     bg-[linear-gradient(90deg,rgba(7,16,14,0.97)_0%,rgba(7,16,14,0.88)_30%,rgba(7,16,14,0.40)_60%,rgba(7,16,14,0.05)_100%),url('/box-hero.webp')]
   "
       id="hero"
+      role="hero"
     >
       <div className="mx-auto flex min-h-180 max-w-7xl items-center px-6 lg:px-10">
         <div className="max-w-2xl text-white">

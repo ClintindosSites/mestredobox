@@ -26,6 +26,7 @@ const Contatos = () => {
           </p>
 
           <iframe
+            title="localizacao"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.2037859185243!2d-44.0231902!3d-19.9158155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6942916b2c623%3A0x44888ce09f03e90c!2sR.%20Fl%C3%B4r%20de%20Alecrim%2C%2041%20-%20Pindorama%2C%20Belo%20Horizonte%20-%20MG%2C%2030865-350!5e0!3m2!1spt-BR!2sbr!4v1791921809332!5m2!1spt-BR!2sbr"
             className="w-full min-h-75"
             allowFullScreen
@@ -53,6 +54,7 @@ const Contatos = () => {
             <Link
               href={"https://instagram.com/mestredobox"}
               target="_blank"
+              aria-label="Instagram de Mestre do Box"
               className="hover:bg-[#E4405F] hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl text-white"
             >
               <BsInstagram />
@@ -61,12 +63,14 @@ const Contatos = () => {
               href={"https://www.facebook.com/profile.php?id=61557937206750"}
               className="hover:bg-[#1877F2] hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl text-white"
               target="_blank"
+              aria-label="Página do Facebook de Mestre do Box"
             >
               <BsFacebook />
             </Link>
             <Link
               href={link}
               target="_blank"
+              aria-label="WhatsApp de Mestre do Box"
               className="hover:bg-[#25D366]  hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl text-white"
             >
               <BsWhatsapp />

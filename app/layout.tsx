@@ -98,7 +98,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body>
+      <body role="body">
         <Header />
         {children}
         <Footer />

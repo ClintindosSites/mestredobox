@@ -25,7 +25,7 @@ const benefits = [
 
 const PorqueEscolher = () => {
   return (
-    <section className="bg-[#003c2d] text-white">
+    <section className="bg-[#003c2d] text-white" role="porqueescolher">
       <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
         {/* Imagem */}
         <div className="relative min-h-125 overflow-hidden">
