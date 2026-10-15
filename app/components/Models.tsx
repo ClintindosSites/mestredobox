@@ -29,7 +29,7 @@ const models = [
 
 const Models = () => {
   return (
-    <section id="modelos" className="bg-[#f7f8f6] py-20">
+    <section id="modelos" className="bg-[#171717] py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="mb-10 max-w-xl">
           {" "}

@@ -52,14 +52,14 @@ const ModelCard = ({ image, title, description, href }: ModelCardProps) => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl bg-[#00c77b] px-4 py-3 text-center text-sm font-semibold transition-colors hover:bg-[#00a86b] hover:text-white gap-2 uppercase text-[#fefefe]"
+            className="inline-flex items-center justify-center rounded-xl bg-[#00c77b] px-4 py-3 text-center text-sm font-semibold transition-colors hover:bg-[#00a86b] hover:text-white gap-2 uppercase   text-[#010101]"
           >
             Solicitar orçamento <BsWhatsapp />
           </Link>
 
           <Link
             href={href}
-            className="inline-flex items-center justify-center gap-2 rounded-xl border border-[#e8ece9] px-4 py-3 text-sm font-medium text-[#17201c] transition-colors hover:border-[#00a86b] hover:text-[#008f5a]"
+            className="inline-flex items-center justify-center gap-2 rounded-xl border border-[#e8ece9] px-4 py-3 text-sm font-bold   text-[#010101] transition-colors hover:border-[#00a86b] hover:text-[#008f5a] "
           >
             Conhecer modelo
             <span
