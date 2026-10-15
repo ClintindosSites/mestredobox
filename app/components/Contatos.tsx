@@ -44,7 +44,7 @@ const Contatos = () => {
      
             transition
             hover:bg-[#00a86b]
-            w-fit text-white flex items-center gap-2
+            w-fit text-[#010101] flex items-center gap-2
           "
           >
             Solicite seu orçamento <BsWhatsapp />
@@ -53,13 +53,13 @@ const Contatos = () => {
             <Link
               href={"https://instagram.com/mestredobox"}
               target="_blank"
-              className="hover:bg-[#E4405F] hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl"
+              className="hover:bg-[#E4405F] hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl text-white"
             >
               <BsInstagram />
             </Link>
             <Link
               href={"https://www.facebook.com/profile.php?id=61557937206750"}
-              className="hover:bg-[#1877F2] hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl"
+              className="hover:bg-[#1877F2] hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl text-white"
               target="_blank"
             >
               <BsFacebook />
@@ -67,7 +67,7 @@ const Contatos = () => {
             <Link
               href={link}
               target="_blank"
-              className="hover:bg-[#25D366]  hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl"
+              className="hover:bg-[#25D366]  hover:rounded-full h-20 w-20 flex items-center justify-center text-4xl text-white"
             >
               <BsWhatsapp />
             </Link>
