@@ -34,9 +34,8 @@ const ModelosBox = () => {
    
   "
       id="modelos"
-      role="modelos"
     >
-      <div className="mx-auto flex min-h-180 max-w-7xl items-center px-6 lg:px-10">
+      <div className="mx-auto flex min-h-180 max-w-7xl items-center px-6 lg:px-10 bg-[#171717]">
         <div className="max-w-2xl text-white">
           <span className="mb-4 block text-sm font-semibold uppercase tracking-[0.2em] text-[#00c77b]">
             Nossos modelos

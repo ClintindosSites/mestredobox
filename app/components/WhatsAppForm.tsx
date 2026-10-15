@@ -27,11 +27,7 @@ export default function LeadForm() {
   }
 
   return (
-    <section
-      role="formulario-whatsapp"
-      className={styles.section}
-      id="solicitar-orcamento"
-    >
+    <section className={styles.section} id="solicitar-orcamento">
       <div className={styles.card}>
         <div className={styles.header}>
           <span className={styles.eyebrow}>
