@@ -92,8 +92,8 @@ export default function Header() {
             <Image
               src="/logo-desktop.webp"
               alt="Logomarca Mestre do Box"
-              width={300}
-              height={100}
+              width={256}
+              height={94}
               priority
               className="h-auto w-32 sm:w-40 lg:w-45"
               sizes="(max-width: 640px) 128px, (max-width: 1023px) 160px, 180px"
@@ -176,8 +176,8 @@ export default function Header() {
             <Image
               src="/logo-desktop.webp"
               alt="Logomarca Mestre do Box"
-              width={300}
-              height={100}
+              width={256}
+              height={94}
               priority
               className="h-auto w-32 sm:w-40 lg:w-45"
               sizes="(max-width: 640px) 128px, (max-width: 1023px) 160px, 180px"

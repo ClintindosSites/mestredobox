@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BsWhatsapp } from "react-icons/bs";
 
 interface ModelCardProps {
   image: string;
@@ -20,7 +21,7 @@ const ModelCard = ({ image, title, description, href }: ModelCardProps) => {
   return (
     <article className="group overflow-hidden rounded-2xl border border-[#e8ece9] bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl w-full">
       {/* Imagem do modelo */}
-      <Link href={href} className="block">
+      <div className="block">
         <div className="relative h-80 aspect-auto overflow-hidden">
           <Image
             src={image}
@@ -31,15 +32,15 @@ const ModelCard = ({ image, title, description, href }: ModelCardProps) => {
             className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
         </div>
-      </Link>
+      </div>
 
       {/* Informações do modelo */}
       <div className="p-5">
-        <Link href={href} className="inline-block">
+        <div className="inline-block">
           <h3 className="text-xl font-bold text-[#17201c] transition-colors group-hover:text-[#008f5a]">
             {title}
           </h3>
-        </Link>
+        </div>
 
         <p className="mt-2 text-sm leading-relaxed text-[#65716b]">
           {description}
@@ -51,9 +52,9 @@ const ModelCard = ({ image, title, description, href }: ModelCardProps) => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl bg-[#00c77b] px-4 py-3 text-center text-sm font-semibold text-[#07100e] transition-colors hover:bg-[#00a86b] hover:text-white"
+            className="inline-flex items-center justify-center rounded-xl bg-[#00c77b] px-4 py-3 text-center text-sm font-semibold transition-colors hover:bg-[#00a86b] hover:text-white gap-2 uppercase text-[#fefefe]"
           >
-            Solicitar orçamento
+            Solicitar orçamento <BsWhatsapp />
           </Link>
 
           <Link
