@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-
+import MetaPixel from "./components/MetaPixel";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsappFloat";
@@ -99,6 +99,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="body" id="body">
+        <MetaPixel />
         <Header />
         {children}
         <Footer />
