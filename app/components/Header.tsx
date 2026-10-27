@@ -5,10 +5,14 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const links = [
-  { href: "/box-frontal", label: "Box Frontal" },
-  { href: "/box-de-canto", label: "Box de Canto" },
-  { href: "/box-ate-o-teto", label: "Box Até o Teto" },
-  { href: "/box-sob-medida", label: "Box Sob Medida" },
+  { href: "/modelos-de-box/box-frontal", label: "Box Frontal" },
+  { href: "/modelos-de-box/box-de-canto", label: "Box de Canto" },
+  { href: "/modelos-de-box/box-ate-o-teto", label: "Box Até o Teto" },
+  { href: "/modelos-de-box/box-sob-medida", label: "Box Sob Medida" },
+  {
+    href: "/modelos-de-box/manutencao-box-de-banheiro",
+    label: "Manutenção em Box",
+  },
 ];
 
 export default function Header() {
@@ -103,7 +107,7 @@ export default function Header() {
           {/* Navegação desktop */}
           <nav
             aria-label="Menu principal"
-            className="hidden items-center gap-5 lg:flex xl:gap-6"
+            className="hidden items-center gap-5 lg:flex  xl:gap-6"
           >
             {links.map(link => (
               <Link
@@ -163,7 +167,7 @@ export default function Header() {
         aria-label="Navegação do Mestre do Box"
         aria-hidden={!menuOpen}
         inert={!menuOpen}
-        className={`fixed inset-y-0 right-0 z-[60] flex h-[100dvh] w-[min(70%,360px)] max-w-full flex-col overflow-y-auto border-l border-[#00c77b]/30 bg-[#111815] text-white shadow-2xl transition-transform duration-300 ease-out lg:hidden ${
+        className={`fixed inset-y-0 right-0 z-60 flex h-dvh w-[min(70%,360px)] max-w-full flex-col overflow-y-auto border-l border-[#00c77b]/30 bg-[#111815] text-white shadow-2xl transition-transform duration-300 ease-out lg:hidden ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
