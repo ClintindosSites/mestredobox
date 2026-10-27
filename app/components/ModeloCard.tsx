@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BsWhatsapp } from "react-icons/bs";
+import WhatsAppLink from "@/app/components/WhatsAppLink";
 
 interface ModelCardProps {
   image: string;
@@ -48,14 +49,14 @@ const ModelCard = ({ image, title, description, href }: ModelCardProps) => {
 
         {/* Ações */}
         <div className="mt-6 flex flex-col gap-3">
-          <Link
+          <WhatsAppLink
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-xl bg-[#00c77b] px-4 py-3 text-center text-sm font-semibold transition-colors hover:bg-[#00a86b] hover:text-white gap-2 uppercase   text-[#010101]"
           >
             Solicitar orçamento <BsWhatsapp />
-          </Link>
+          </WhatsAppLink>
 
           <Link
             href={href}

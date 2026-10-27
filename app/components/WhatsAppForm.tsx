@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import styles from "./LeadForm.module.css";
+import { reportGoogleAdsConversion } from "@/app/lib/google-ads";
 
 export default function LeadForm() {
   const [nome, setNome] = useState("");
@@ -23,7 +24,11 @@ export default function LeadForm() {
 
     const url = `https://wa.me/5531984362710?text=${encodeURIComponent(texto)}`;
 
+    // Abre o WhatsApp imediatamente para evitar bloqueio do navegador.
     window.open(url, "_blank", "noopener,noreferrer");
+
+    // Registra a conversão de contato no Google Ads.
+    reportGoogleAdsConversion();
   }
 
   return (

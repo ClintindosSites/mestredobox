@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BsWhatsapp } from "react-icons/bs";
+import WhatsAppLink from "@/app/components/WhatsAppLink";
 
 const phone = "5531984362710";
 const message = encodeURIComponent(
@@ -35,7 +36,7 @@ const Hero = () => {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
-            <Link
+            <WhatsAppLink
               href={link}
               className="
             rounded-xl
@@ -49,7 +50,7 @@ const Hero = () => {
           "
             >
               Solicite seu orçamento <BsWhatsapp />
-            </Link>
+            </WhatsAppLink>
 
             <Link
               href="#modelos"

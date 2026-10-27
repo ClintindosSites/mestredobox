@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BsWhatsapp } from "react-icons/bs";
 import type { ServicePageData } from "@/data/service-pages";
+import WhatsAppLink from "@/app/components/WhatsAppLink";
 
 const phone = "5531984362710";
 
@@ -204,7 +205,7 @@ export default function ServicePageLayout({ service }: ServicePageLayoutProps) {
             solicitar seu orçamento de {service.name.toLowerCase()}.
           </p>
 
-          <Link
+          <WhatsAppLink
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
@@ -212,7 +213,7 @@ export default function ServicePageLayout({ service }: ServicePageLayoutProps) {
           >
             Falar pelo WhatsApp
             <BsWhatsapp size={20} />
-          </Link>
+          </WhatsAppLink>
         </div>
       </section>
     </main>

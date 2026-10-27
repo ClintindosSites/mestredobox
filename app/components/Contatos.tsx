@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BsWhatsapp, BsInstagram, BsFacebook } from "react-icons/bs";
 import LeadForm from "./WhatsAppForm";
+import WhatsAppLink from "@/app/components/WhatsAppLink";
 
 const Contatos = () => {
   const phone = "5531984362710";
@@ -36,7 +37,7 @@ const Contatos = () => {
             allowFullScreen
           ></iframe>
 
-          <Link
+          <WhatsAppLink
             href={link}
             className="
             rounded-xl
@@ -51,7 +52,7 @@ const Contatos = () => {
           "
           >
             Solicite seu orçamento <BsWhatsapp />
-          </Link>
+          </WhatsAppLink>
           <div className="flex gap-5">
             <Link
               href={"https://instagram.com/mestredobox"}
