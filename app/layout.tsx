@@ -4,7 +4,7 @@ import MetaPixel from "./components/MetaPixel";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsappFloat";
-
+import Script from "next/script";
 export const metadata: Metadata = {
   title: {
     default: "Mestre do Box | Box de Banheiro Sob Medida em Belo Horizonte",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   creator: "Clintin dos Sites",
   publisher: "Clintin dos SItes",
 
-  metadataBase: new URL("https://www.mestredobox.com.br"),
+  metadataBase: new URL("https://mestredobox.com.br"),
 
   alternates: {
     canonical: "/",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "Mestre do Box | Box de Banheiro Sob Medida em Belo Horizonte",
     description:
       "Box de banheiro sob medida e personalizados como: box até o teto, box frontal, box de canto, box em L e muito mais",
-    url: "https://www.mestredobox.com.br",
+    url: "https://mestredobox.com.br",
     siteName: "Mestre do Box",
     locale: "pt_BR",
     type: "website",
@@ -99,6 +99,20 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="body" id="body">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18490605644"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-ads-tag" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'AW-18490605644');
+  `}
+        </Script>
         <MetaPixel />
         <Header />
         {children}
